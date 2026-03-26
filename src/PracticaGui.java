@@ -59,6 +59,7 @@ public class PracticaGui extends JFrame {
 		btnRama_R.setBounds(82, 109, 89, 23);
 		contentPane.add(btnRama_R);
 		
+
 		JButton btnNewButton = new JButton("Botón de Mich");
 		btnNewButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
@@ -68,6 +69,16 @@ public class PracticaGui extends JFrame {
 		});
 		btnNewButton.setBounds(82, 143, 114, 22);
 		contentPane.add(btnNewButton);
+
+		JButton btnBotonLuz = new JButton("Boton Luz");
+		btnBotonLuz.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				JOptionPane.showMessageDialog(btnMaster, "Hola desde la rama de luz");
+			}
+		});
+		btnBotonLuz.setBounds(82, 161, 89, 23);
+		contentPane.add(btnBotonLuz);
+ master
 
 	}
 }
