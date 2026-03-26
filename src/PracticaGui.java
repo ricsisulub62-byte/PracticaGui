@@ -49,6 +49,15 @@ public class PracticaGui extends JFrame {
 		});
 		btnMaster.setBounds(65, 55, 131, 23);
 		contentPane.add(btnMaster);
+		
+		JButton btnRama_R = new JButton("Botón Ricsi");
+		btnRama_R.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				JOptionPane.showMessageDialog(btnMaster, "Hola desde la rama de ricsi");
+			}
+		});
+		btnRama_R.setBounds(82, 109, 89, 23);
+		contentPane.add(btnRama_R);
 
 	}
 
